@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+ <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="styles/style.css">
+      <title>Седона</title>
+  </head>
+<!-- Конец шапки -->
+  <body>
+   <header class="page-header">
+    <a href="logo"><img src="image.jpg" height="55" width="67" alt="Логотип."></a>
+<!-- Начало навигации -->
+     <nav class="navigation">
+       <ul class="navigation-list">
+        <li class="navigation-item">
+         <a class="navigation-link" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+         <a class="navigation-link" href="#">О Cедоне</a>
+        </li>
+        <li class="navigation-item">
+         <a class="navigation-link" href="#">Гостиницы</a>
+        </li>
+        </ul>
+<!-- Навигация поиска -->
+        <ul class="navigation-list">
+          <li class="navigation-item">
+           <a class="navigation-link" href="#">
+            <span class="visually-hidden">
+            Поиск.
+            </span>
+<!-- Модальное окно начало -->
+                      <h2>Поиск гостиницы в Седоне</h2>
+                       <button type="button" class="close">
+                        <svg></svg>
+                     </button>
+                    </div>
+                      <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
+                        <p>Мы не можем отправить вас в прошлое.</p>
+                      <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
+                        <p>На эти даты есть свободные номера. Пока есть.</p>
+                      <p>
+                        <label for="age">Взрослые:</label>
+                          <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
+                        <label for="age">Дети:</label>
+                         <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
+                    </p>
+                    <p>
+                        <button type="submit">Найти</button>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </a>
+        </li>
+<!-- Конец модального окна -->
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">
+        <span class="visually-hidden">
+        Избранное.
+       </span>
+      </a>
+    </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+      </a>
+      <button type="submit" value="Хочу сюда!"></button>
+      </li>
+     </ul>
+   </nav>
+  </header>
+<!-- Конец хедера -->
+        <main>
+        <h1>Гостиницы Седоны</h1>
+         <ul class="navigation-list">
+         <a href="index.html"><img src="image.png" width="12" height="12" alt="ДомЛого."></a>
+         <a class="navigation-link" href="index.html">Главная</a>
+       </ul>
+<!-- Поиск начало -->
+          <section>
+           <div>
+            <p>Инфраструктура</p>
+             <input type="checkbox"checked><label for="name">Бассейн</label>
+             <input type="checkbox"><label for="name">Парковка</label>
+             <input type="checkbox"><label for="name">Wi-Fi</label>
+          </div>
+          <div>
+            <p>Тип Жилья:</p>
+             <input type="radio" name="house-type" id="hotel-field"checked><label>Гостиница</label>
+             <input type="radio" name="house-type" id="motel-field"><label>Мотель</label>
+             <input type="radio" name="house-type" id="apartaments-field"><label>Апартаменты</label>
+            </div>
+            <div>
+            <p>Стоимость,₽</p>
+             <input type="text" name="appointment-price" id="appointment-task" placeholder="от">
+             <input type="text" name="appointment-price" id="appointment-task" placeholder="до">
+             <input type="range">
+           </div>
+            <div>
+             <button type="submit" value="применить"></button>
+             <button type="reset" value="сбросить"></button>
+            </div>
+          </section>
+<!-- Поиск конец формы -->
+          <section>
+            <div>
+        <h2>Найдено гостиниц:38</h2>
+        <select "user_profile_color_1">
+          <option value="1">Сначала популярное</option>
+          <option value="2">Сначала дешевые</option>
+          <option value="3">Сначала дорогое</option>
+          <ul>
+          <li>
+            <a class="navigation-button" href="#">вектор</a>
+            <a class="navigation-button" href="#">вектор</a>
+            <a class="navigation-button" href="#">вектор</a>
+          </li>
+          </ul>
+        </div>
+          </section>
+<!-- Список гостиниц -->
+          <section>
+       <h2 class="visually-hidden">Список страниц</h2>
+      <ul>
+      <li>
+        <img src="images/hotel-1.jpg" width="300" height="212" alt="Пейзаж.">
+      <h3>Amara Resort & Spa</h3>
+       <p>Гостиница</p><p>От 4000 ₽</p>
+        <button class="btn">Подробнее</button><button class="btn">В избранное</button>
+         <p>Рейтинг:8,5</p>
+       <li>
+        <img src="images/hotel-2.jpg" width="300" height="212" alt="Пейзаж.">
+       <h3>Villas at Poco Diablo</h3>
+        <span>Гостиница</span><span>От 5000 ₽</span>
+         <button class="btn">Подробнее</button><button class="btn"disabled>В избранном</button>
+          <p>Рейтинг:9,2</p>
+       </li>
+       <li>
+        <img src="images/hotel-3.jpg" width="300" height="212" alt="Пейзаж.">
+        <h3>Desert Quail Inn</h3>
+         <p>Гостиница</p><p>От 2500 ₽</p>
+          <button class="btn">Подробнее</button><button class="btn">В избранное</button>
+          <p>Рейтинг:6,9</p>
+      </li>
+      <li>
+        <img src="images/hotel-4.jpg" width="300" height="212" alt="Пейзаж.">
+       <h3>GreenTree Inn</h3>
+        <p>Гостиница</p><p>От 1500 ₽</p>
+        <button class="btn">Подробнее</button><button class="btn">В избранное</button>
+         <p>Рейтинг:5,0</p>
+        </li>
+         <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+      </ul>
+       </section>
+<!-- Начало формы подписки -->
+  <section>
+    <h2 class="appointment-title">Подпишитесь на рассылку</h2>
+      <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form action="#" method="post">
+      <input type="email" placeholder="Ваш e-mail">
+      <button type="submit">Подписаться</button>
+    </form>
+  </section>
+  </main>
+<!-- Начало социальные сети -->
+  <footer>
+    <section class="footer-social">
+      <ul class="footer-social-list">
+       <li class="footer-social-item">
+      <a class="button" href="#">
+    <span class="visually-hidden">VK</span>
+  </a>
+  </li>
+<li class="footer-social-item">
+      <a class="button" href="#">
+       <span class="visually-hidden">Telegram</span>
+  </a>
+</li>
+<li class="footer-social-item">
+     <a class="button" href="#">
+      <span class="visually-hidden">YouTube</span>
+     </a>
+  </li>
+ </ul>
+</section>
+<!-- Список контакты -->
+<section class="contacts">
+   <a class="contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
+    <a href="logo"><img src="images/logo_htmlacademy.svg" width="115" height="33" alt="Логотип."></a>
+</section>
+  </footer>
+ </body>
+</html>
