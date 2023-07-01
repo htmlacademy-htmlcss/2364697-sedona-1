@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("2364697-sedona-1/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("2364697-sedona-1/fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  background-image: url("..images/logo.svg");
+  background-repeat: no-repeat;
+}
+
+.welcome {
+  background-image: url("..images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.search {
+  background-image: url("..images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.favorites {
+  background-image: url("..images/heart.svg");
+  background-repeat: no-repeat;
+  height: 55;
+  width: 67;
+}
+
+.logo-living {
+  background-image: url("..images/аdvantage-icon.svg");
+  background-repeat: no-repeat;
+  height: 72;
+  width: 75;
+}
+
+.logo-food {
+  background-image: url("..images/аdvantage-icon-1.svg");
+  background-repeat: no-repeat;
+  height: 70;
+  width: 74;
+}
+
+.logo-souvenir {
+  background-image: url("..images/advantages-icon2.svg");
+  background-repeat: no-repeat;
+  height: 76;
+  width: 64;
+}
+
+.navigation-button-1 {
+    background-image: url("..images/view.svg);
+    background-repeat: no-repeat;
+}
+
+.navigation-button-2 {
+    background-image: url("..images/view-1.svg);
+    background-repeat: no-repeat;
+}
+
+.navigation-button-3 {
+    background-image: url("..images/view-2.svg);
+    background-repeat: no-repeat;
+}
+
+.button {
+  font-family: "PT Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #e3c58d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url("..images/logofoot.jpeg");
+  background-repeat: no-repeat;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.navigation {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navigation-link {
+  font-family: "PT Sans";
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #f2f2f2;
+  background-image: url();
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.main-inner {
+  color: #;
+  background-color: #;
+  background-image: url("");
+}
+
+.index-columns {
+  color: #;
+  background-color: ;
+  background-image: url("");
+}
+
+.services {
+  text-transform: uppercase;
+}
+
+.services-title {
+  font-size: px;
+  line-height: px;
+  font-weight: ;
+}
+
+.services-list {
+  font-size: ;
+  line-height: ;
+  font-weight: ;
+}
+
+.services-price {
+  color: #;
+}
+
+.appointment-title {
+  font-size: ;
+  line-height: ;
+  font-weight: ;
+  text-transform: uppercase;
+}
+
+.appointment-form {
+  color: #;
+}
+
+.star {
+  background-image: url("..images/star-3.svg");
+  background-repeat: no-repeat;
+}
+
+.form-label {
+  line-height: ;
+  font-weight: ;
+  text-transform: uppercase;
+}
+
+.subscribe-form {
+  background-image: url("..images/logofoot.jpeg");
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  font-weight: ;
+}
+
+.contacts-title {
+  font-size: ;
+  line-height: ;
+  font-weight: ;
+  text-transform: uppercase;
+}
+
+.contacts-subtitle {
+  font-size: ;
+  line-height: ;
+  text-transform: uppercase;
+  color: #;
+}
+
+.contacts-phone {
+  font-size: ;
+  line-height: ;
+  text-decoration-line: ;
+  text-transform: uppercase;
+  color: #;
+}
+
+.page-footer {
+  font-size: ;
+  font-weight: ;
+  color: #;
+  background-color: #;
+  background-image: url("");
+  background-repeat: ;
+}
+
+.logo-foot {
+  background-image: url("..images/logofoot.jpeg");
+  background-repeat: no-repeat;
+}
+
+.vk-button {
+  background-image: url("..images/social-2.svg");
+  background-repeat: no-repeat;
+}
+
+  .telegram-button {
+    background-image: url("..images/social-3.svg");
+    background-repeat: no-repeat;
+  }
+
+    .youtube-button {
+      background-image: url("..images/social-1.svg");
+      background-repeat: no-repeat;
+    }
+
+  .close {
+    background-image: url("..images/vector-8.svg");
+    background-repeat: no-repeat;
+  }
