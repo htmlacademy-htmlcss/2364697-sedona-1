@@ -10,7 +10,7 @@
 
   <body>
     <header class="page-header">
-       <a href="#"><img src="logo.svg" width="120" height="55" alt="logo."></a>
+       <a href="#"><img src="images/logo.svg" width="120" height="55" alt="logo."></a>
 
       <!-- Начало навигации -->
 
@@ -31,48 +31,42 @@
         <!-- Навигация поиска -->
 
         <ul class="navigation-list">
-          <div class="search">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#search"><img src="images">
+          <li class="navigation-item search">
+            <a class="navigation-link" href="#search"><img src="images/search.svg">
               <span class="visually-hidden">
                 Поиск.
             </span>
             </a>
           </li>
-        </div>
 
           <!-- Конец модального окна -->
 
-          <li class="navigation-item">
-            <div class="favorites">
-            <a class="navigation-link" href="#">
+          <li class="navigation-item favourites">
+            <a class="navigation-link" href="#heart"><img src="images/heart.svg">
               <span class="visually-hidden">
                 Избранное.
               </span>
             </a>
-            </div>
           </li>
 
-        <div class="request-button">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
             <button type="button">Хочу сюда!</button>
           </li>
-        </a>
-        </div>
         </ul>
       </nav>
     </header>
 
     <!-- Конец шапки -->
 
-    <main>
-      <main class="main-index">
+      <main class="main-container main-index">
+        <div class="page-container">
         <div class="welcome">
         <h1 class="visually-hidden">Седона</h1>
         <img src="images/welcome.svg" width="458" height="352" alt="welcome">
-        <img src="images/vector-3.png" height="78" alt="vector-white">
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <div class="divider">
+          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
+        </div>
         </div>
 
         <!-- Преимущества начало -->
@@ -113,21 +107,15 @@
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="services-list">
             <li class="services-item">
-              <div class="logo-living"></div>
-              <img class="logo" src="images/аdvantage-icon.svg" width="75" height="72" alt="Логотип.">
-                <b class="advantages-title">Жилье</b>
+                <b class="advantages-title-living">Жилье</b>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
             <li class="services-item">
-              <div class="logo-food"></div>
-              <img class="logo" src="images/аdvantage-icon-1.svg" width="74" height="70" alt="Логотип.">
-                <b class="advantages-title">Еда</b>
+                <b class="advantages-title-food">Еда</b>
               <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="services-item">
-              <div class="logo-souvenir"></div>
-              <img class="logo" src="images/advantages-icon2.svg" width="64" height="76" alt="Логотип.">
-                <b class="advantages-title">Сувениры</b>
+                <b class="advantages-title-souvenirs">Сувениры</b>
               <p>Не только китайского, но и настоящего местного производства!</p>
             </li>
           </ul>
@@ -143,10 +131,8 @@
 
       <!-- Форма поиска конец  -->
 
-      <a href="#"><img src="images/logofoot.jpeg" width="120" height="55" alt="foot."></a>
-
       <section>
-        <form action="https://echo.htmlacademy.ru"></form>
+        <form action="https://echo.htmlacademy.ru">
         <div class="subscribe-form">
           <h2 class="appointment-title">Подпишитесь на рассылку</h2>
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -161,19 +147,20 @@
       <footer>
         <section class="footer-social">
           <ul class="footer-social-list">
-            <li class="footer-social-item">
-                <span class="visually-hidden"></span>
-                <img src="images/social-2.svg" alt="vk.">
+            <li class="footer-social-item-vk">
+              <a class="button" href="#">
+                <span class="visually-hidden">VK</span>
+                </a>
             </li>
-
-            <li class="footer-social-item">
-                <span class="visually-hidden"></span>
-                <img src="images/social-3.svg" alt="tg.">
+            <li class="footer-social-item-tg">
+              <a class="button" href="#">
+                <span class="visually-hidden">Telegram</span>
+                </a>
             </li>
-
-            <li class="footer-social-item">
-                <span class="visually-hidden"></span>
-                <img src="images/social-1.svg" alt="yt.">
+            <li class="footer-social-item-yt">
+              <a class="button" href="#">
+                <span class="visually-hidden">YouTube</span>
+              </a>
             </li>
           </ul>
         </section>
@@ -189,13 +176,11 @@
         <!-- Модальное окно начало -->
 
                       <h2>Поиск гостиницы в Седоне</h2>
-                       <button type="button" class="close">
-                      <img src="image/vector-8.svg" alt="close">
-                     </button>
+                       <button type="button" class="close"><img src="images/cross.svg" alt="close"></button>
                       <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
-                        <p>Мы не можем отправить вас в прошлое.</p>
+                        <div class="calendar"></div> <p>Мы не можем отправить вас в прошлое.</p>
                       <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
-                        <p>На эти даты есть свободные номера. Пока есть.</p>
+                        <div class="calendar"></div> <p>На эти даты есть свободные номера. Пока есть.</p>
                         <label for="age">Взрослые:</label>
                           <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                         <label for="age">Дети:</label>
