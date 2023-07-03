@@ -1,14 +1,11 @@
-# Личный проект «Седона»
+# Личный проект «Cедона»
 
-* Студент: [Ирина Копанова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2364697).
-* Наставник: `Неизвестно`.
-
----
+* Студент: [Ирина Копанова](https://htmlacademy.ru/profile/id2364697).
+* Наставник: .
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
 
 ### Памятка
 
@@ -18,7 +15,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2364697-sedona-1) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий]({{homepage}}) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
 
