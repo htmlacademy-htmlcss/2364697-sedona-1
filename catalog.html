@@ -8,9 +8,11 @@
 <!-- Конец шапки -->
 
   <body>
-   <header class="page-header">
     <div class="page-container">
-    <a href="#"><img src="images/logo.svg" height="55" width="67" alt="Логотип."></a>
+   <header class="page-header">
+    <a href="#">
+      <img src="images/logo.svg" height="55" width="67" alt="Логотип.">
+    </a>
 
 <!-- Начало навигации -->
 
@@ -29,31 +31,32 @@
 
 <!-- Навигация поиска -->
 
-        <ul class="navigation-list">
-          <li class="navigation-item">
-           <a class="navigation-link" href="#search">
-            <span class="visually-hidden">
-            Поиск.
-            </span>
-            </a>
-            </li>
+<ul class="navigation-list">
+  <li class="navigation-item .search">
+    <a class="navigation-link" href="#search"><img src="images/search.svg">
+      <span class="visually-hidden">
+        Поиск.
+    </span>
+    </a>
+  </li>
 
-      <li class="navigation-item ">
-       <a class="navigation-link" href="#">
-        <span class="visually-hidden">
+  <!-- Конец модального окна -->
+
+  <li class="navigation-item .favourites">
+    <a class="navigation-link" href="#heart"><img src="images/heart.svg">
+      <span class="visually-hidden">
         Избранное.
-       </span>
-      </a>
-    </li>
+      </span>
+    </a>
+  </li>
 
-    <li class="navigation-item">
-      <button type="button">Хочу сюда!</button>
-    </li>
-  </ul>
+  <li class="navigation-item">
+    <button type="button">Хочу сюда!</button>
+  </li>
+</ul>
 </nav>
 </div>
 </header>
-
 
 <!-- Конец хедера -->
 
@@ -71,7 +74,8 @@
 <!-- Поиск начало -->
 
           <section>
-           <div>
+           <div class="services-catalog">
+            <div>
             <p>Инфраструктура</p>
              <input type="checkbox" checked><label for="name">Бассейн</label>
              <input type="checkbox"><label for="name">Парковка</label>
@@ -93,6 +97,7 @@
              <button type="submit" value="применить"></button>
              <button type="reset" value="сбросить"></button>
             </div>
+           </div>
           </section>
 
 <!-- Поиск конец формы -->
@@ -120,7 +125,7 @@
 
           <section>
        <h2 class="visually-hidden">Список страниц</h2>
-      <ul>
+      <ul class="catalog-list">
       <li>
         <img src="images/hotel-1.jpg" width="300" height="212" alt="Пейзаж.">
       <h3>Amara Resort & Spa</h3>
@@ -169,8 +174,8 @@
 
 <!-- Начало формы подписки -->
 
-  <section>
-    <h2 class="appointment-title">Подпишитесь на рассылку</h2>
+  <section class="subscribe">
+    <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="#" method="post">
       <input type="email" placeholder="Ваш e-mail">

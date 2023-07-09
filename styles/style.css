@@ -16,8 +16,8 @@
 
 body {
   font-family: "PT Sans";
-  font-size: 20px;
-  line-height: 24px;
+  font-size: px;
+  line-height: px;
   color: #000000;
   background-color: #f2f2f2;
 }
@@ -30,13 +30,31 @@ body {
   box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
 }
 
+.page-header {
+  height: px;
+  line-height: px;
+  text-align: ;
+  width: px;
+  margin:
+}
+
 .navigation-link {
   color: var (#000000);
-  font-size: 20px;
+  font-size: 0px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 00;
+  line-height: px;
   text-transform: capitalize;
+}
+
+.navigation {
+  display: ;
+  width: px;
+}
+
+.navigation-list {
+  width: px;
+  margin-left: px;
 }
 
 .logo {
@@ -47,8 +65,7 @@ body {
 .welcome {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .navigation-item .search {
@@ -59,35 +76,54 @@ body {
 .navigation-item .favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
-  height: 55;
-  width: 67;
+  height: ;
+  width: ;
 }
 
 .divider {
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  height: 100;
+  height: 0;
+  margin-bottom: 0px;
+}
+
+.text-sedona {
+  margin-top: 64px;
+  height: 767px;
+  width: 1200px;
 }
 
 .logo-living {
   background-image: url("../images/аdvantage-icon.svg");
   background-repeat: no-repeat;
-  height: 72;
-  width: 75;
+  height: ;
+  width: ;
+}
+
+.services-item {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+  text-align: center;
+  color: #000000;
+  background-color: rgb(140, 193, 213);
+  text-decoration: none;
+  text-transform: ;
 }
 
 .logo-food {
   background-image: url("../images/аdvantage-icon-1.svg");
   background-repeat: no-repeat;
-  height: 70;
-  width: 74;
+  height: ;
+  width: ;
 }
 
 .logo-souvenir {
   background-image: url("../images/advantages-icon2.svg");
   background-repeat: no-repeat;
-  height: 76;
-  width: 64;
+  height: ;
+  width: ;
 }
 
 .navigation-button-1 {
@@ -105,31 +141,167 @@ body {
     background-repeat: no-repeat;
 }
 
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.advantages-title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+  text-transform: normal;
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
 .аdvantages-title-living {
   background-image: url("../images/аdvantage-icon.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase;
 }
 
 .аdvantages-title-food {
   background-image: url("../images/аdvantage-icon-1.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase;
 }
 
 .advantages-title-souvenirs {
   background-image: url("../images/advantages-icon2.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase ;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 
 .button {
   font-family: "PT Sans";
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: center;
   color: #000000;
-  background-color: #e3c58d;
+  background-color: rgb(140, 193, 213);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-title {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-description {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.appointment {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.appointment-date {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  font-family: "PT Sans";
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  height: 100px;
+  line-height: 30px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.subscribe-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
 }
 
 .divider {
@@ -148,20 +320,28 @@ body {
 }
 
 .navigation {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
+  display: ;
+  width: px;
+  margin: ;
 }
 
 .navigation-link {
   font-family: "PT Sans";
-  line-height: 24px;
-  font-weight: 700;
+  line-height: px;
+  font-weight: 00;
   text-align: center;
   color: #000000;
   background-color: #f2f2f2;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.subscribe-form {
+  height: 100px;
+  line-height: 30px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -188,7 +368,48 @@ body {
   background-image: url("");
 }
 
+.text-sedona {
+  font-family: "PT Sans";
+  line-height: 26px;
+  font-weight: 400px;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: normal;
+}
+
+.sedona-title {
+  font-family: "PT Sans";
+  line-height: px;
+  font-weight: 00;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
 .page-footer {
+  display: ;
+  flex-wrap: ;
+  padding-left: 0;
+  margin: 0;
   font-size: ;
   font-weight: ;
   color: #;
@@ -222,6 +443,39 @@ body {
       background-repeat: no-repeat;
     }
 
-  .close {
+    .modal {
+      position: relative;
+      margin: auto;
+      padding: 40px;
+      background-color: #ffffff;
+    }
 
-  }
+    .modal.auth {
+      width: 200px;
+    }
+
+    .modal-close-button {
+      position: absolute;
+      padding: 0;
+      top: 0;
+      right: 0;
+      width: 56px;
+      height: 44px;
+      background-color: #ffffff;
+      border: none;
+      background-image: url("../images/close.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+    }
+
+    .modal-title {
+      margin: 0;
+      margin-bottom: 24px;
+      font-family: "PT Sans", sans-serif;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 700px;
+      color: #000000;
+      text-transform: uppercase;
+    }
