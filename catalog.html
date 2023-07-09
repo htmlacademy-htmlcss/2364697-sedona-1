@@ -9,6 +9,7 @@
 
   <body>
    <header class="page-header">
+    <div class="page-container">
     <a href="#"><img src="images/logo.svg" height="55" width="67" alt="Логотип."></a>
 
 <!-- Начало навигации -->
@@ -29,7 +30,6 @@
 <!-- Навигация поиска -->
 
         <ul class="navigation-list">
-          <div class="search">
           <li class="navigation-item">
            <a class="navigation-link" href="#search">
             <span class="visually-hidden">
@@ -37,10 +37,8 @@
             </span>
             </a>
             </li>
-      </div>
 
-      <div class="favorites">
-      <li class="navigation-item">
+      <li class="navigation-item ">
        <a class="navigation-link" href="#">
         <span class="visually-hidden">
         Избранное.
@@ -53,11 +51,14 @@
     </li>
   </ul>
 </nav>
+</div>
 </header>
+
 
 <!-- Конец хедера -->
 
         <main>
+          <div class="page-container">
         <h1>Гостиницы Седоны</h1>
          <ul class="navigation-list">
           <div class="home">
@@ -176,30 +177,32 @@
       <button type="submit">Подписаться</button>
     </form>
   </section>
+   </div>
   </main>
 
 <!-- Начало социальные сети -->
 
-  <footer>
-        <section class="footer-social">
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">VK</span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">Telegram</span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">YouTube</span>
-              </a>
-            </li>
-          </ul>
-        </section>
+<footer>
+  <div class="page-container">
+  <section class="footer-social">
+    <ul class="footer-social-list">
+      <li class="footer-social-item-vk">
+        <a class="button" href="#">
+          <span class="visually-hidden">VK</span>
+          </a>
+      </li>
+      <li class="footer-social-item-tg">
+        <a class="button" href="#">
+          <span class="visually-hidden">Telegram</span>
+          </a>
+      </li>
+      <li class="footer-social-item-yt">
+        <a class="button" href="#">
+          <span class="visually-hidden">YouTube</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
 <!-- Список контакты -->
 
@@ -207,6 +210,7 @@
    <a class="contacts-phone" href="tel:+78128121212">+7(812)-12-12</a>
     <a href="logo"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип."></a>
 </section>
+  </div>
   </footer>
  </body>
 </html>

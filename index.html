@@ -10,12 +10,12 @@
 
   <body>
     <header class="page-header">
+      <div class="page-container">
        <a href="#"><img src="images/logo.svg" width="120" height="55" alt="logo."></a>
 
       <!-- Начало навигации -->
 
       <nav class="navigation">
-
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Главная</a>
@@ -31,7 +31,7 @@
         <!-- Навигация поиска -->
 
         <ul class="navigation-list">
-          <li class="navigation-item search">
+          <li class="navigation-item .search">
             <a class="navigation-link" href="#search"><img src="images/search.svg">
               <span class="visually-hidden">
                 Поиск.
@@ -41,7 +41,7 @@
 
           <!-- Конец модального окна -->
 
-          <li class="navigation-item favourites">
+          <li class="navigation-item .favourites">
             <a class="navigation-link" href="#heart"><img src="images/heart.svg">
               <span class="visually-hidden">
                 Избранное.
@@ -54,10 +54,9 @@
           </li>
         </ul>
       </nav>
+      </div>
     </header>
-
     <!-- Конец шапки -->
-
       <main class="main-container main-index">
         <div class="page-container">
         <div class="welcome">
@@ -66,8 +65,7 @@
         <div class="divider">
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
-        </div>
-        </div>
+      </div>
 
         <!-- Преимущества начало -->
 
@@ -140,11 +138,11 @@
         </div>
         </form>
       </section>
+    </div>
     </main>
-
       <!-- Форма почты конец -->
-
       <footer>
+        <div class="page-container">
         <section class="footer-social">
           <ul class="footer-social-list">
             <li class="footer-social-item-vk">
@@ -171,10 +169,9 @@
           <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
           <a href="#"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="обложка."></a>
         </section>
+        </div>
       </footer>
-
         <!-- Модальное окно начало -->
-
                       <h2>Поиск гостиницы в Седоне</h2>
                        <button type="button" class="close"><img src="images/cross.svg" alt="close"></button>
                       <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">

@@ -22,6 +22,23 @@ body {
   background-color: #f2f2f2;
 }
 
+.page-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+
+.navigation-link {
+  color: var (#000000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
 .logo {
   background-image: url("../images/logo.svg");
   background-repeat: no-repeat;
@@ -34,12 +51,12 @@ body {
   margin: 0 auto;
 }
 
-.navigation-item search {
+.navigation-item .search {
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
 }
 
-.navigation-item favorites {
+.navigation-item .favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
   height: 55;
@@ -169,79 +186,6 @@ body {
   color: #;
   background-color: ;
   background-image: url("");
-}
-
-.services {
-  text-transform: uppercase;
-}
-
-.services-title {
-  font-size: px;
-  line-height: px;
-  font-weight: ;
-}
-
-.services-list {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-}
-
-.services-price {
-  color: #;
-}
-
-.appointment-title {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.appointment-form {
-  color: #;
-}
-
-.star {
-  background-image: url("../images/star-3.svg");
-  background-repeat: no-repeat;
-}
-
-.form-label {
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.subscribe-form {
-  background-image: url("../images/logofoot.jpeg");
-  background-repeat: no-repeat;
-}
-
-.contacts {
-  font-weight: ;
-}
-
-.contacts-title {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.contacts-subtitle {
-  font-size: ;
-  line-height: ;
-  text-transform: uppercase;
-  color: #;
-}
-
-.contacts-phone {
-  font-size: ;
-  line-height: ;
-  text-decoration-line: ;
-  text-transform: uppercase;
-  color: #;
 }
 
 .page-footer {
