@@ -16,8 +16,7 @@
 
 body {
   font-family: "PT Sans";
-  font-size: px;
-  line-height: px;
+  line-height: normal;
   color: #000000;
   background-color: #f2f2f2;
 }
@@ -31,20 +30,40 @@ body {
 }
 
 .page-header {
-  height: px;
-  line-height: px;
+  height: ;
+  line-height: ;
   text-align: ;
-  width: px;
+  width: ;
   margin:
 }
 
 .navigation-link {
-  color: var (#000000);
+  color: #000000;
   font-size: 0px;
   font-style: normal;
   font-weight: 00;
   line-height: px;
-  text-transform: capitalize;
+}
+
+.navigation-link-item {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1 px;
+  height: 1 px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .navigation {
@@ -55,6 +74,22 @@ body {
 .navigation-list {
   width: px;
   margin-left: px;
+}
+
+.navigation-item-buttons {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
+}
+
+.navigation-list-buttons {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
 }
 
 .logo {
@@ -76,20 +111,48 @@ body {
 .navigation-item .favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
-  height: ;
-  width: ;
+  height: 20px ;
+  width: 20px;
 }
 
 .divider {
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  height: 0;
+  height: 0px;
   margin-bottom: 0px;
+}
+
+.advantages-item-blue {
+  width: 400px;
+  height: 385px;
+  color: #f2f2f2;
+  background-color: #81B3D3;
+}
+
+.advantages-item-light {
+  width: 400px;
+  height: 385px;
+  color: #333333;
+  background-color: #83B3D31F;
+}
+
+.advantages-item-light-blue {
+  width: 400px;
+  height: 385px;
+  background-color: #83B3D333;
+  color: #333333;
+}
+
+.advantages-item-light-blue-2 {
+  width: 400px;
+  height: 385px;
+  background-color: #82B3D3;
+  color: #f2f2f2;
 }
 
 .text-sedona {
   margin-top: 64px;
-  height: 767px;
+  min-height: 767px;
   width: 1200px;
 }
 
@@ -98,18 +161,6 @@ body {
   background-repeat: no-repeat;
   height: ;
   width: ;
-}
-
-.services-item {
-  font-family: "PT Sans";
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400px;
-  text-align: center;
-  color: #000000;
-  background-color: rgb(140, 193, 213);
-  text-decoration: none;
-  text-transform: ;
 }
 
 .logo-food {
@@ -124,6 +175,43 @@ body {
   background-repeat: no-repeat;
   height: ;
   width: ;
+}
+
+.services-item-1 {
+width: 400px;
+height: 385px;
+background-color: #83B3D31F;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+color: #;
+text-decoration: none;
+}
+
+.services-item-2 {
+width: 400px;
+height: 385px;
+background-color: #ffffff;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+text-decoration: none;
+}
+
+.services-item-3 {
+width: 400px;
+height: 385px;
+background-color: #83B3D31F;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+text-decoration: none;
 }
 
 .navigation-button-1 {
@@ -183,6 +271,8 @@ body {
   line-height: 28px;
   font-weight: 230px;
   text-transform: uppercase;
+  width: 400px;
+  color: #000000;
 }
 
 .аdvantages-title-food {
@@ -193,6 +283,8 @@ body {
   line-height: 28px;
   font-weight: 230px;
   text-transform: uppercase;
+  width: 400px;
+  color: #000000;
 }
 
 .advantages-title-souvenirs {
@@ -202,15 +294,36 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 230px;
-  text-transform: uppercase ;
+  text-transform: uppercase;
+  width: 400px;
+  color: #000000;
 }
 
 .catalog-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: stretch;
   flex-wrap: wrap;
   align-content: stretch;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.hotel-card-1 {
+width: 340px;
+}
+
+.hotel-card-2 {
+width: 340px;
+}
+
+.hotel-card-3 {
+width: 340px;
+}
+
+.hotel-card-4 {
+width: 340px;
+padding-top: 40px;
 }
 
 .button {
@@ -223,6 +336,7 @@ body {
   background-color: rgb(140, 193, 213);
   text-decoration: none;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .services {
@@ -261,10 +375,7 @@ body {
 }
 
 .appointment {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin: 0;
+padding-left: 400px;
 }
 
 .appointment-date {
@@ -283,10 +394,10 @@ body {
 }
 
 .subscribe {
-  height: 100px;
-  line-height: 30px;
+  height: 300px;
+  line-height: 40px;
   text-align: center;
-  width: 200px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -325,10 +436,32 @@ body {
   margin: ;
 }
 
-.navigation-link {
+.navigation-link-1 {
   font-family: "PT Sans";
-  line-height: px;
-  font-weight: 00;
+  line-height: ;
+  font-weight: ;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-link-2 {
+  font-family: "PT Sans";
+  line-height: ;
+  font-weight: ;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-link-3 {
+  font-family: "PT Sans";
+  line-height: ;
+  font-weight: ;
   text-align: center;
   color: #000000;
   background-color: #f2f2f2;
@@ -363,7 +496,7 @@ body {
 }
 
 .index-columns {
-  color: #;
+  color: #000000;
   background-color: ;
   background-image: url("");
 }
@@ -371,18 +504,18 @@ body {
 .text-sedona {
   font-family: "PT Sans";
   line-height: 26px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   text-align: center;
   color: #000000;
   background-color: #f2f2f2;
   text-decoration: none;
-  text-transform: normal;
+  text-transform: lowercase;
 }
 
 .sedona-title {
   font-family: "PT Sans";
-  line-height: px;
+  line-height: 36px;
   font-weight: 00;
   text-align: center;
   color: #000000;
@@ -412,10 +545,14 @@ body {
   margin: 0;
   font-size: ;
   font-weight: ;
-  color: #;
+  color: #000000;
   background-color: #;
   background-image: url("");
   background-repeat: ;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .logo-foot {
