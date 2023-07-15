@@ -30,7 +30,7 @@ body {
 }
 
 .page-header {
-  height: ;
+  min-height: ;
   line-height: ;
   text-align: ;
   width: ;
@@ -56,7 +56,7 @@ body {
 .visually-hidden {
   position: absolute;
   width: 1 px;
-  height: 1 px;
+  min-height: 1 px;
   margin: -1px;
   border: 0;
   padding: 0;
@@ -111,27 +111,27 @@ body {
 .navigation-item .favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
-  height: 20px ;
+  min-height: 20px ;
   width: 20px;
 }
 
 .divider {
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  height: 0px;
+  min-height: 0px;
   margin-bottom: 0px;
 }
 
 .advantages-item-blue {
-  width: 400px;
-  height: 385px;
+  width: 1200px;
   color: #f2f2f2;
   background-color: #81B3D3;
+  display: flex;
 }
 
 .advantages-item-light {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   color: #333333;
   background-color: #83B3D31F;
 }
@@ -145,13 +145,13 @@ body {
 
 .advantages-item-light-blue-2 {
   width: 400px;
-  height: 385px;
-  background-color: #82B3D3;
-  color: #f2f2f2;
+  min-height: 385px;
+  background-color: #83B3D31F;
+  color: #000000;
 }
 
 .text-sedona {
-  margin-top: 64px;
+  padding-top: 64px;
   min-height: 767px;
   width: 1200px;
 }
@@ -159,27 +159,31 @@ body {
 .logo-living {
   background-image: url("../images/аdvantage-icon.svg");
   background-repeat: no-repeat;
-  height: ;
+  min-height: ;
   width: ;
 }
 
 .logo-food {
   background-image: url("../images/аdvantage-icon-1.svg");
   background-repeat: no-repeat;
-  height: ;
+  min-height: ;
   width: ;
 }
 
 .logo-souvenir {
   background-image: url("../images/advantages-icon2.svg");
   background-repeat: no-repeat;
-  height: ;
+  min-height: ;
   width: ;
+}
+
+element.style {
+ width: 400px;
 }
 
 .services-item-1 {
 width: 400px;
-height: 385px;
+min-height: 385px;
 background-color: #83B3D31F;
 font-family: "PT Sans";
 font-size: 18px;
@@ -192,7 +196,7 @@ text-decoration: none;
 
 .services-item-2 {
 width: 400px;
-height: 385px;
+min-height: 385px;
 background-color: #ffffff;
 font-family: "PT Sans";
 font-size: 18px;
@@ -204,7 +208,7 @@ text-decoration: none;
 
 .services-item-3 {
 width: 400px;
-height: 385px;
+min-height: 385px;
 background-color: #83B3D31F;
 font-family: "PT Sans";
 font-size: 18px;
@@ -305,8 +309,8 @@ text-decoration: none;
   align-items: stretch;
   flex-wrap: wrap;
   align-content: stretch;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 200x;
+  padding-right: px;
 }
 
 .hotel-card-1 {
@@ -394,7 +398,15 @@ padding-left: 400px;
 }
 
 .subscribe {
-  height: 300px;
+  min-height: 400px;
+  line-height: 40px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe-2 {
+  min-height: 300px;
   line-height: 40px;
   text-align: center;
   width: 600px;
@@ -470,10 +482,8 @@ padding-left: 400px;
 }
 
 .subscribe-form {
-  height: 100px;
   line-height: 30px;
   text-align: center;
-  width: 200px;
   margin: 0 auto;
 }
 
@@ -597,7 +607,7 @@ padding-left: 400px;
       top: 0;
       right: 0;
       width: 56px;
-      height: 44px;
+      min-height: 44px;
       background-color: #ffffff;
       border: none;
       background-image: url("../images/close.svg");
