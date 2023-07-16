@@ -16,10 +16,80 @@
 
 body {
   font-family: "PT Sans";
-  font-size: 20px;
-  line-height: 24px;
+  line-height: normal;
   color: #000000;
   background-color: #f2f2f2;
+}
+
+.page-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+
+.page-header {
+  min-height: ;
+  line-height: ;
+  text-align: ;
+  width: ;
+  margin:
+}
+
+.navigation-link {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
+}
+
+.navigation-link-item {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1 px;
+  min-height: 1 px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.navigation {
+  display: ;
+  width: px;
+}
+
+.navigation-list {
+  width: px;
+  margin-left: px;
+}
+
+.navigation-item-buttons {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
+}
+
+.navigation-list-buttons {
+  color: #000000;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 00;
+  line-height: px;
 }
 
 .logo {
@@ -30,47 +100,122 @@ body {
 .welcome {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
-.navigation-item search {
+.navigation-item .search {
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
 }
 
-.navigation-item favorites {
+.navigation-item .favorites {
   background-image: url("../images/heart.svg");
   background-repeat: no-repeat;
-  height: 55;
-  width: 67;
+  min-height: 20px ;
+  width: 20px;
 }
 
 .divider {
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  height: 100;
+  min-height: 0px;
+  margin-bottom: 0px;
+}
+
+.advantages-item-blue {
+  width: 1200px;
+  color: #f2f2f2;
+  background-color: #81B3D3;
+  display: flex;
+}
+
+.advantages-item-light {
+  width: 400px;
+  min-height: 385px;
+  color: #333333;
+  background-color: #83B3D31F;
+}
+
+.advantages-item-light-blue {
+  width: 400px;
+  height: 385px;
+  background-color: #83B3D333;
+  color: #333333;
+}
+
+.advantages-item-light-blue-2 {
+  width: 400px;
+  min-height: 385px;
+  background-color: #83B3D31F;
+  color: #000000;
+}
+
+.text-sedona {
+  padding-top: 64px;
+  min-height: 767px;
+  width: 1200px;
 }
 
 .logo-living {
   background-image: url("../images/аdvantage-icon.svg");
   background-repeat: no-repeat;
-  height: 72;
-  width: 75;
+  min-height: ;
+  width: ;
 }
 
 .logo-food {
   background-image: url("../images/аdvantage-icon-1.svg");
   background-repeat: no-repeat;
-  height: 70;
-  width: 74;
+  min-height: ;
+  width: ;
 }
 
 .logo-souvenir {
   background-image: url("../images/advantages-icon2.svg");
   background-repeat: no-repeat;
-  height: 76;
-  width: 64;
+  min-height: ;
+  width: ;
+}
+
+element.style {
+ width: 400px;
+}
+
+.services-item-1 {
+width: 400px;
+min-height: 385px;
+background-color: #83B3D31F;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+color: #;
+text-decoration: none;
+}
+
+.services-item-2 {
+width: 400px;
+min-height: 385px;
+background-color: #ffffff;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+text-decoration: none;
+}
+
+.services-item-3 {
+width: 400px;
+min-height: 385px;
+background-color: #83B3D31F;
+font-family: "PT Sans";
+font-size: 18px;
+line-height: 21px;
+font-weight: 400px;
+text-align: center;
+text-decoration: none;
 }
 
 .navigation-button-1 {
@@ -88,31 +233,191 @@ body {
     background-repeat: no-repeat;
 }
 
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.advantages-title {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400px;
+  text-transform: normal;
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
 .аdvantages-title-living {
   background-image: url("../images/аdvantage-icon.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase;
+  width: 400px;
+  color: #000000;
 }
 
 .аdvantages-title-food {
   background-image: url("../images/аdvantage-icon-1.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase;
+  width: 400px;
+  color: #000000;
 }
 
 .advantages-title-souvenirs {
   background-image: url("../images/advantages-icon2.svg");
   background-repeat: no-repeat;
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 230px;
+  text-transform: uppercase;
+  width: 400px;
+  color: #000000;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
+  padding-left: 200x;
+  padding-right: px;
+}
+
+.hotel-card-1 {
+width: 340px;
+}
+
+.hotel-card-2 {
+width: 340px;
+}
+
+.hotel-card-3 {
+width: 340px;
+}
+
+.hotel-card-4 {
+width: 340px;
+padding-top: 40px;
 }
 
 .button {
   font-family: "PT Sans";
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: center;
   color: #000000;
-  background-color: #e3c58d;
+  background-color: rgb(140, 193, 213);
   text-decoration: none;
   text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.services-title {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-description {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.services-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.appointment {
+padding-left: 400px;
+}
+
+.appointment-date {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  font-family: "PT Sans";
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  min-height: 400px;
+  line-height: 40px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe-2 {
+  min-height: 300px;
+  line-height: 40px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+}
+
+.subscribe-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
 }
 
 .divider {
@@ -131,20 +436,48 @@ body {
 }
 
 .navigation {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
+  display: ;
+  width: px;
+  margin: ;
 }
 
-.navigation-link {
+.navigation-link-1 {
   font-family: "PT Sans";
-  line-height: 24px;
-  font-weight: 700;
+  line-height: ;
+  font-weight: ;
   text-align: center;
   color: #000000;
   background-color: #f2f2f2;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.navigation-link-2 {
+  font-family: "PT Sans";
+  line-height: ;
+  font-weight: ;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-link-3 {
+  font-family: "PT Sans";
+  line-height: ;
+  font-weight: ;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe-form {
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -166,91 +499,63 @@ body {
 }
 
 .index-columns {
-  color: #;
+  color: #000000;
   background-color: ;
   background-image: url("");
 }
 
-.services {
+.text-sedona {
+  font-family: "PT Sans";
+  line-height: 26px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.sedona-title {
+  font-family: "PT Sans";
+  line-height: 36px;
+  font-weight: 00;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
-.services-title {
-  font-size: px;
-  line-height: px;
-  font-weight: ;
-}
-
-.services-list {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-}
-
-.services-price {
-  color: #;
-}
-
-.appointment-title {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.appointment-form {
-  color: #;
-}
-
-.star {
-  background-image: url("../images/star-3.svg");
-  background-repeat: no-repeat;
-}
-
-.form-label {
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.subscribe-form {
-  background-image: url("../images/logofoot.jpeg");
-  background-repeat: no-repeat;
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
 }
 
 .contacts {
-  font-weight: ;
-}
-
-.contacts-title {
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  text-transform: uppercase;
-}
-
-.contacts-subtitle {
-  font-size: ;
-  line-height: ;
-  text-transform: uppercase;
-  color: #;
-}
-
-.contacts-phone {
-  font-size: ;
-  line-height: ;
-  text-decoration-line: ;
-  text-transform: uppercase;
-  color: #;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
 }
 
 .page-footer {
+  display: ;
+  flex-wrap: ;
+  padding-left: 0;
+  margin: 0;
   font-size: ;
   font-weight: ;
-  color: #;
+  color: #000000;
   background-color: #;
   background-image: url("");
   background-repeat: ;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .logo-foot {
@@ -278,6 +583,39 @@ body {
       background-repeat: no-repeat;
     }
 
-  .close {
+    .modal {
+      position: relative;
+      margin: auto;
+      padding: 40px;
+      background-color: #ffffff;
+    }
 
-  }
+    .modal.auth {
+      width: 200px;
+    }
+
+    .modal-close-button {
+      position: absolute;
+      padding: 0;
+      top: 0;
+      right: 0;
+      width: 56px;
+      min-height: 44px;
+      background-color: #ffffff;
+      border: none;
+      background-image: url("../images/close.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+    }
+
+    .modal-title {
+      margin: 0;
+      margin-bottom: 24px;
+      font-family: "PT Sans", sans-serif;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 700px;
+      color: #000000;
+      text-transform: uppercase;
+    }

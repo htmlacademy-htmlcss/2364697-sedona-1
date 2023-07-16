@@ -8,50 +8,52 @@
 <!-- Конец шапки -->
 
   <body>
+    <div class="page-container">
    <header class="page-header">
-    <a href="#"><img src="images/logo.svg" height="55" width="67" alt="Логотип."></a>
+    <a href="#">
+      <img src="images/logo.svg" height="55" width="67" alt="Логотип.">
+    </a>
 
 <!-- Начало навигации -->
 
      <nav class="navigation">
        <ul class="navigation-list">
         <li class="navigation-item">
-         <a class="navigation-link" href="index.html">Главная</a>
+         <a class="navigation-link-1" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
-         <a class="navigation-link" href="index.html">О Cедоне</a>
+         <a class="navigation-link-2" href="index.html">О Cедоне</a>
         </li>
         <li class="navigation-item">
-         <a class="navigation-link" href="#">Гостиницы</a>
+         <a class="navigation-link-3" href="#">Гостиницы</a>
         </li>
         </ul>
 
 <!-- Навигация поиска -->
 
-        <ul class="navigation-list">
-          <div class="search">
-          <li class="navigation-item">
-           <a class="navigation-link" href="#search">
-            <span class="visually-hidden">
-            Поиск.
-            </span>
-            </a>
-            </li>
-      </div>
+<ul class="navigation-list-buttons">
+  <li class="navigation-item .search">
+    <a class="navigation-link-item" href="#search"><img src="images/search.svg">
+      <span class="visually-hidden">
+        Поиск.
+    </span>
+    </a>
+  </li>
 
-      <div class="favorites">
-      <li class="navigation-item">
-       <a class="navigation-link" href="#">
-        <span class="visually-hidden">
+  <!-- Конец модального окна -->
+
+  <li class="navigation-item .favourites">
+    <a class="navigation-link-item" href="#heart"><img src="images/heart.svg">
+      <span class="visually-hidden">
         Избранное.
-       </span>
-      </a>
-    </li>
+      </span>
+    </a>
+  </li>
 
-    <li class="navigation-item">
-      <button type="button">Хочу сюда!</button>
-    </li>
-  </ul>
+  <li class="navigation-item-buttons">
+    <button type="button">Хочу сюда!</button>
+  </li>
+</ul>
 </nav>
 </header>
 
@@ -70,7 +72,8 @@
 <!-- Поиск начало -->
 
           <section>
-           <div>
+           <div class="services-catalog">
+            <div>
             <p>Инфраструктура</p>
              <input type="checkbox" checked><label for="name">Бассейн</label>
              <input type="checkbox"><label for="name">Парковка</label>
@@ -92,6 +95,7 @@
              <button type="submit" value="применить"></button>
              <button type="reset" value="сбросить"></button>
             </div>
+           </div>
           </section>
 
 <!-- Поиск конец формы -->
@@ -119,8 +123,8 @@
 
           <section>
        <h2 class="visually-hidden">Список страниц</h2>
-      <ul>
-      <li>
+      <ul class="catalog-list">
+      <li class="hotel-card-1">
         <img src="images/hotel-1.jpg" width="300" height="212" alt="Пейзаж.">
       <h3>Amara Resort & Spa</h3>
        <p>Гостиница</p><p>От 4000 ₽</p>
@@ -129,7 +133,7 @@
          <p>Рейтинг:8,5</p>
          <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
       </li>
-       <li>
+       <li class="hotel-card-2">
         <img src="images/hotel-2.jpg" width="300" height="212" alt="Пейзаж.">
        <h3>Villas at Poco Diablo</h3>
         <p>Гостиница</p><p>От 5000 ₽</p>
@@ -138,7 +142,7 @@
           <p>Рейтинг:9,2</p>
           <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
        </li>
-       <li>
+       <li class="hotel-card-3">
         <img src="images/hotel-3.jpg" width="300" height="212" alt="Пейзаж.">
         <h3>Desert Quail Inn</h3>
          <p>Гостиница</p><p>От 2500 ₽</p>
@@ -147,7 +151,7 @@
           <p>Рейтинг:6,9</p>
           <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
       </li>
-      <li>
+      <li class="hotel-card-4">
         <img src="images/hotel-4.jpg" width="300" height="212" alt="Пейзаж.">
        <h3>GreenTree Inn</h3>
         <p>Гостиница</p><p>От 1500 ₽</p>
@@ -168,8 +172,8 @@
 
 <!-- Начало формы подписки -->
 
-  <section>
-    <h2 class="appointment-title">Подпишитесь на рассылку</h2>
+  <section class="subscribe-2">
+    <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="#" method="post">
       <input type="email" placeholder="Ваш e-mail">
@@ -180,26 +184,27 @@
 
 <!-- Начало социальные сети -->
 
-  <footer>
-        <section class="footer-social">
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">VK</span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">Telegram</span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="button" href="#">
-                <span class="visually-hidden">YouTube</span>
-              </a>
-            </li>
-          </ul>
-        </section>
+<footer>
+  <div class="page-container">
+  <section class="footer-social">
+    <ul class="footer-social-list">
+      <li class="footer-social-item-vk">
+        <a class="button" href="#">
+          <span class="visually-hidden">VK</span>
+          </a>
+      </li>
+      <li class="footer-social-item-tg">
+        <a class="button" href="#">
+          <span class="visually-hidden">Telegram</span>
+          </a>
+      </li>
+      <li class="footer-social-item-yt">
+        <a class="button" href="#">
+          <span class="visually-hidden">YouTube</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
 <!-- Список контакты -->
 
@@ -208,5 +213,6 @@
     <a href="logo"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип."></a>
 </section>
   </footer>
+</div>
  </body>
 </html>
