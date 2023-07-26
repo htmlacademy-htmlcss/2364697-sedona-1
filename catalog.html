@@ -62,40 +62,37 @@
         <main>
         <h1>Гостиницы Седоны</h1>
          <ul class="navigation-list">
-          <div class="home">
-            <div class="arrow">
-         <a class="navigation-link" href="index.html">Гостиницы</a>
-          </div>
-          </div>
+          <li class="home" href="index.html"></li>
+         <li class="navigation-link" href="catalog.html">Гостиницы</li>
          </ul>
 
 <!-- Поиск начало -->
 
-          <section>
+          <form class="form-filter" action="https://echo.htmlacademy.ru">
            <div class="services-catalog">
             <div>
             <p>Инфраструктура</p>
-             <input type="checkbox" checked><label for="name">Бассейн</label>
-             <input type="checkbox"><label for="name">Парковка</label>
-             <input type="checkbox"><label for="name">Wi-Fi</label>
-          </div>
+             <input type="checkbox" name="pool" id="pool" checked><label for="name">Бассейн</label>
+             <input type="checkbox" name="parking" id="parking"><label for="name">Парковка</label>
+             <input type="checkbox" name="wifi" id="wifi"><label for="name">Wi-Fi</label>
+          </div><br>
           <div>
             <p>Тип Жилья:</p>
-             <input type="radio" name="house-type-hotel" id="hotel-field" checked><label>Гостиница</label>
-             <input type="radio" name="house-type-motel" id="motel-field"><label>Мотель</label>
-             <input type="radio" name="house-type-apartaments" id="apartaments-field"><label>Апартаменты</label>
-            </div>
+             <input type="radio" name="house-type" id="hotel" checked><label for="hotel">Гостиница</label>
+             <input type="radio" name="house-type" id="motel"><label for="motel">Мотель</label>
+             <input type="radio" name="house-type" id="apartaments"><label for="apartaments">Апартаменты</label>
+            </div><br>
             <div>
             <p>Стоимость,₽</p>
-             <input type="text" name="appointment-price-from" id="appointment-task-from" placeholder="от">
-             <input type="text" name="appointment-price-to" id="appointment-task-to" placeholder="до">
+             <input type="number" name="appointment-price-from" id="appointment-task-from">от<label for="от">
+             <input type="number" name="appointment-price-to" id="appointment-task-to">до<label for ="до">
              <input type="range">
            </div>
             <div>
-             <button type="submit" value="применить"></button>
-             <button type="reset" value="сбросить"></button>
+             <button type="submit" value="do-submit">применить</button>
+             <button type="reset" value="do-reset">сбросить</button>
             </div>
-           </div>
+          </form>
           </section>
 
 <!-- Поиск конец формы -->
@@ -107,13 +104,13 @@
           <option value="1">Сначала популярное</option>
           <option value="2">Сначала дешевые</option>
           <option value="3">Сначала дорогое</option>
-          <div class="decor-arrow"></div>
         </select>
+        <div class="decor-arrow"></div>
           <ul>
           <li>
-            <a href="#"><img src="images/viewlist2.svg"></a>
-            <a href="#"><img src="images/viewlist3.svg"></a>
-            <a href="#"><img src="images/viewlist1.svg"></a>
+            <a сlass="catalog-view-table"></a>
+            <a class="catalog-view-slide"></a>
+            <a class="catalog-view-list"></a>
           </li>
           </ul>
         </div>
@@ -125,38 +122,38 @@
        <h2 class="visually-hidden">Список страниц</h2>
       <ul class="catalog-list">
       <li class="hotel-card-1">
-        <img src="images/hotel-1.jpg" width="300" height="212" alt="Пейзаж.">
-      <h3>Amara Resort & Spa</h3>
+       <a href="#"><div><img src="images/hotel-1.jpg" width="300" height="212" alt="Пейзаж."></div>
+      <div><h3>Amara Resort & Spa</h3></div></a>
        <p>Гостиница</p><p>От 4000 ₽</p>
-        <button class="button">Подробнее</button>
-        <button class="button">В избранное</button>
+        <a href="#" class="btn">Подробнее</a>
+        <a href="#" class="btn">В избранное</a>
          <p>Рейтинг:8,5</p>
-         <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
+      <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
       </li>
        <li class="hotel-card-2">
-        <img src="images/hotel-2.jpg" width="300" height="212" alt="Пейзаж.">
-       <h3>Villas at Poco Diablo</h3>
+      <div><img src="images/hotel-2.jpg" width="300" height="212" alt="Пейзаж."></div>
+      <a href="#"><div><h3>Villas at Poco Diablo</h3></div></a>
         <p>Гостиница</p><p>От 5000 ₽</p>
-         <button class="button">Подробнее</button>
-         <button class="button" disabled>В избранном</button>
+        <a href="#" class="btn">Подробнее</a>
+          <a href="#" class="btn">В избранное</a>
           <p>Рейтинг:9,2</p>
           <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
        </li>
        <li class="hotel-card-3">
-        <img src="images/hotel-3.jpg" width="300" height="212" alt="Пейзаж.">
-        <h3>Desert Quail Inn</h3>
+        <a href="#"></a><div><img src="images/hotel-3.jpg" width="300" height="212" alt="Пейзаж."></div>
+        <div><h3>Desert Quail Inn</h3></div></a>
          <p>Гостиница</p><p>От 2500 ₽</p>
-          <button class="button">Подробнее</button>
-          <button class="button">В избранное</button>
+         <a href="#" class="btn">Подробнее</a>
+          <a href="#" class="btn">В избранное</a>
           <p>Рейтинг:6,9</p>
           <img src="images/star-3.svg"><img src="images/star-3.svg"><img src="images/star-3.svg">
       </li>
       <li class="hotel-card-4">
-        <img src="images/hotel-4.jpg" width="300" height="212" alt="Пейзаж.">
-       <h3>GreenTree Inn</h3>
+        <a href="#"><div><img src="images/hotel-4.jpg" width="300" height="212" alt="Пейзаж."></div>
+       <div><h3>GreenTree Inn</h3></div></a>
         <p>Гостиница</p><p>От 1500 ₽</p>
-        <button class="button">Подробнее</button>
-        <button class="button">В избранное</button>
+        <a href="#" class="btn">Подробнее</a>
+          <a href="#" class="btn">В избранное</a>
          <p>Рейтинг:5,0</p>
          <img src="images/star-3.svg"><img src="images/star-3.svg">
         </li>
@@ -166,25 +163,26 @@
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
         <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
+        <li><a href="#">10</a></li>
       </ul>
        </section>
 
 <!-- Начало формы подписки -->
 
-  <section class="subscribe-2">
+  <section class="subscribe">
+    <form action="https://echo.htmlacademy.ru">
+      <div class="subscribe-form">
     <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form action="#" method="post">
-      <input type="email" placeholder="Ваш e-mail">
-      <button type="submit">Подписаться</button>
+      <input type="email" placeholder="Ваш e-mail" name="email"><button type="submit">Подписаться</button>
+      </div>
     </form>
   </section>
   </main>
 
 <!-- Начало социальные сети -->
 
-<footer>
+<footer class="page-footer">
   <div class="page-container">
   <section class="footer-social">
     <ul class="footer-social-list">
@@ -209,7 +207,7 @@
 <!-- Список контакты -->
 
 <section class="contacts">
-   <a class="contacts-phone" href="tel:+78128121212">+7(812)-12-12</a>
+   <a class="contacts-phone" href="tel:+78128121212">+7(812)-12-12-12</a>
     <a href="logo"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип."></a>
 </section>
   </footer>
