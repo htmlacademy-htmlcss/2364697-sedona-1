@@ -18,13 +18,13 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link-1" href="#">Главная</a>
+            <a class="navigation-link-text" href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-2" href="#">О Cедоне</a>
+            <a class="navigation-link-text" href="#">О Cедоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-3" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link-text" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
 
@@ -61,7 +61,7 @@
         <div class="welcome">
         <img src="images/welcome.svg" width="458" height="352" alt="welcome">
         <div class="divider">
-          <h1 class="sedona-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+          <h1 class="title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
       </div>
@@ -101,41 +101,51 @@
           </ul>
 
           <section class="services">
+            <div class="title">
             <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+            </div>
+            <div class="subtitle">
             <p class="services-description">Опытный персонал и качественное обслуживание!</p>
+            </div>
           </section>
         </section>
 
-        <section class="advantages">
+         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="services-list">
-
             <li class="services-item">
-                <b class="advantages-title-living">Жилье</b>
+              <div class="advantages-item-title">
+                <b class="advantages-title-living">Жилье</b></div>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
             <li class="services-item">
-                <b class="advantages-title-food">Еда</b>
+              <div class="advantages-item-title">
+                <b class="advantages-title-food">Еда</b></div>
               <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="services-item">
-                <b class="advantages-title-souvenirs">Сувениры</b>
+              <div class="advantages-item-title">
+                <b class="advantages-title-souvenirs">Сувениры</b></div>
               <p>Не только китайского, но и настоящего местного производства!</p>
             </li>
-          </ul>
-        </section>
+           </ul>
+         </section>
 
       <!-- Конец раздела с преимуществами -->
 
       <section class="appointment">
+        <div class="title">
         <h2 class="appointment-date">Заинтересовались?</h2>
+        </div>
+        <div class="subtitle">
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        </div>
         <button type="button" id="search">Поиск гостиницы в Седоне</button>
       </section>
 
       <!-- Форма поиска конец  -->
 
-    <section class="subscribe">
+    <section class="subscribe-background">
       <form action="https://echo.htmlacademy.ru">
         <div class="subscribe-form">
       <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
@@ -143,8 +153,9 @@
         <input type="email" placeholder="Ваш e-mail" name="email"><button type="submit">Подписаться</button>
         </div>
       </form>
-    </section>
+     </section>
     </main>
+
       <!-- Форма почты конец -->
 
       <footer class="page-footer">
@@ -175,7 +186,7 @@
           <a href="#"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="обложка."></a>
         </section>
       </footer>
-    </div>
+
         <!-- Модальное окно начало -->
 
         <div class="modal-container">
@@ -191,7 +202,6 @@
                           <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                         <label for="age">Дети:</label>
                          <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
-                    </p>
                     <p>
                         <button type="submit">Найти</button>
                     </p>

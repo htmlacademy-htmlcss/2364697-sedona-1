@@ -54,12 +54,12 @@ body {
   line-height: px;
 }
 
-.navigation-link-item {
-  color: #000000;
-  font-size: 0px;
+.navigation-link-text {
+  font-size: 20px;
   font-style: normal;
-  font-weight: 00;
-  line-height: px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
 }
 
 .visually-hidden {
@@ -211,6 +211,24 @@ body {
   background-position: center top 80px;
 }
 
+.title {
+color: #000000;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+font-family: "PT Sans";
+}
+
+.subtitle {
+color: #333333;
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+}
+
 .services-item-1 {
 background-color: rgba(131, 179, 211, 0.12);
 background-image: url("../images/аdvantage-icon.svg");
@@ -260,15 +278,15 @@ background-image: url("../images/advantages-icon2.svg");
 }
 
 .catalog-view-table {
-background-image: url(..images/viewlist2.svg);
+background-image: url(../images/viewlist2.svg);
 }
 
 .catalog-view-slide {
-background-image: url(..images/viewlist3.svg);
+background-image: url(../images/viewlist3.svg);
 }
 
 .catalog-view-list {
-background-image: url(..images/viewlist1.svg);
+background-image: url(../images/viewlist1.svg);
 }
 
 .advantages-title {
@@ -277,8 +295,9 @@ background-image: url(..images/viewlist1.svg);
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .advantages-description {
@@ -287,8 +306,9 @@ background-image: url(..images/viewlist1.svg);
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400px;
+  font-weight: 400;
   text-transform: normal;
+  color: #333333;
 }
 
 .advantages-item {
@@ -310,6 +330,15 @@ background-image: url(..images/viewlist1.svg);
   color: #000000;
 }
 
+.advantages-item-title {
+  color: #000000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
 .аdvantages-title-food {
   background-image: url("../images/аdvantage-icon-1.svg");
 }
@@ -327,7 +356,7 @@ background-image: url(..images/viewlist1.svg);
   line-height: 21px;
   font-weight: 400;
   text-align: center;
-  color: #000000;
+  color: #333333;
   background-color: #83B3D31F;
   background-position: center top 80px;
   background-repeat: no-repeat;
@@ -366,6 +395,64 @@ background-image: url(..images/viewlist1.svg);
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 30px;
+}
+
+.button-brown {
+  font-family: "PT Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #756157;
+}
+
+.button-blue {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #82B3D3;
+}
+
+.button-green {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #7DB54F;
+}
+
+.appointment-button {
+  font-family: "PT Sans";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border-radius: 4px;
+  background-color: #756157;
 }
 
 .services-title {
@@ -472,7 +559,7 @@ padding-left: 400px;
 
 .navigation-link-text {
   display: block;
-  padding:;
+  padding: ;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
@@ -553,17 +640,6 @@ padding-left: 400px;
   text-transform: lowercase;
 }
 
-.sedona-title {
-  font-family: "PT Sans";
-  line-height: 36px;
-  font-weight: 00;
-  text-align: center;
-  color: #000000;
-  background-color: #f2f2f2;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .pagination {
   display: flex;
   flex-wrap: wrap;
@@ -576,6 +652,17 @@ padding-left: 400px;
   flex-wrap: wrap;
   padding-left: 0;
   margin: 0;
+}
+
+.contacts-phone {
+  color: #000000;
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 
 .page-footer {
