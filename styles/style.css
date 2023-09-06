@@ -21,6 +21,7 @@
 }
 
 body {
+  margin: 0;
   font-size: 18px;
   line-height: 21px;
   font-family: "PT Sans", sans-serif;
@@ -37,6 +38,7 @@ body {
 }
 
 .page-header {
+  position: relative;
   min-height: 64px;
   line-height: ;
   text-align: ;
@@ -79,8 +81,17 @@ body {
 
 .navigation {
   display: flex;
-  width: px;
-  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 240px;
+  padding-right: 70px;
+}
+
+.logo-sedona {
+position: absolute;
+top: 0;
+left: 70px;
 }
 
 .navigation-list {
@@ -107,6 +118,7 @@ body {
   font-weight: 00;
   line-height: px;
   list-style-type: none;
+  display: flex;
 }
 
 .logo {
@@ -118,6 +130,8 @@ body {
 }
 
 .welcome {
+  padding-top: 64px;
+  padding-bottom: 82px;
   background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-position: bottom, center;
@@ -141,6 +155,11 @@ body {
   color: #f2f2f2;
   background-color: #81B3D3;
   display: flex;
+}
+
+.advantages-item-blue p,
+.advantages-item-blue h3 {
+ color: #ffffff;
 }
 
 .advantages-item-light {
@@ -432,8 +451,20 @@ background-image: url(../images/viewlist1.svg);
 }
 
 .appointment-button {
+  font-family: "PT Sans";
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #756157;
+  padding-left: 50px;
+  padding-top: 8px;
+  padding-right: 50px;
+  padding-bottom: 8px;
 }
 
 .button-blue {
@@ -537,16 +568,10 @@ background-image: url(../images/viewlist1.svg);
 }
 
 .services-title {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
   margin: 0;
 }
 
 .services-description {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
   margin: 0;
 }
 
@@ -565,13 +590,12 @@ background-image: url(../images/viewlist1.svg);
 }
 
 .appointment {
-padding-left: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .appointment-date {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
   margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
@@ -584,21 +608,27 @@ padding-left: 400px;
 }
 
 .subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 400px;
   line-height: 40px;
   text-align: center;
-  width: 600px;
-  margin: 0 auto;
   background-color: ;
-  background-size: ;
-  baсkground-position: ;
-  background-repeat: no-repeat;
 }
 
 .subscribe-background {
   background-color: #82B3D3;
   color: #ffffff;
-  background-image: url("../images/subscribe-foot.svg");
+  background-image: url("../images/subscribe.jpg");
+  background-size: cover;
+  baсkground-position: center;
+  background-repeat: no-repeat;
+}
+
+.subscribe-background h2,
+.subscribe-background p {
+   color: #ffffff;
 }
 
 .subscribe-2 {
@@ -630,8 +660,11 @@ padding-left: 400px;
 
 .navigation {
   display: flex;
-  width: px;
-  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 240px;
+  padding-right: 70px;
 }
 
 .navigation-link-text {
@@ -745,24 +778,17 @@ padding-left: 400px;
   font-weight: 400;
   line-height: 40px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .page-footer {
-  display: block;
-  flex-wrap: ;
-  padding-left: 0;
-  margin: 0;
-  font-size: ;
-  font-weight: ;
+  display: flex;
+  justify-content: space-between;
   color: #000000;
-  background-color: #;
-  background-image: url("");
-  background-repeat: no-repeat;
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  list-style-type: none;
 }
 
 .footer-social {
@@ -770,7 +796,19 @@ padding-left: 400px;
 }
 
 .footer-social-list {
+list-style: none;
+padding-left: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+}
 
+.footer-social-link {
+  display: block;
+  width: 47px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo-foot {
@@ -778,19 +816,16 @@ padding-left: 400px;
   background-repeat: no-repeat;
 }
 
-.footer-social-item-vk {
+.footer-social-item-vk .footer-social-link {
   background-image: url("../images/social-2.svg");
-  background-repeat: no-repeat;
 }
 
-  .footer-social-item-tg {
+  .footer-social-item-tg .footer-social-link {
     background-image: url("../images/social-3.svg");
-    background-repeat: no-repeat;
   }
 
-    .footer-social-item-yt {
+    .footer-social-item-yt .footer-social-link {
       background-image: url("../images/social-1.svg");
-      background-repeat: no-repeat;
     }
 
     .calendar {
