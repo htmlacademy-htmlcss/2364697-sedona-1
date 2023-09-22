@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/style.css">
+    <title>Sedona-гостиницы</title>
   </head>
 
   <!-- Конец шапки -->
@@ -11,20 +12,20 @@
   <body>
     <div class="page-container">
     <header class="page-header">
-       <a href="#"><img src="images/logo.svg" width="120" height="55" alt="logo."></a>
+       <a href="#" class="logo-sedona"><img src="images/logo.svg" width="140" height="55" alt="logo."></a>
 
       <!-- Начало навигации -->
 
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link-1" href="#">Главная</a>
+            <a class="navigation-link-text" href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-2" href="#">О Cедоне</a>
+            <a class="navigation-link-text" href="#">О Cедоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-3" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link-text" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
 
@@ -50,7 +51,7 @@
           </li>
 
           <li class="navigation-item-buttons">
-            <button type="button">Хочу сюда!</button>
+            <button class="appointment-button" type="button">Хочу сюда!</button>
           </li>
         </ul>
       </nav>
@@ -60,10 +61,10 @@
           <section class="text-sedona">
         <div class="welcome">
         <img src="images/welcome.svg" width="458" height="352" alt="welcome">
-        <div class="divider">
-          <h1 class="sedona-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-        </div>
+      </div>
+      <div class="divider">
+        <h1 class="title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p class="subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
     </section>
 
@@ -101,68 +102,70 @@
           </ul>
 
           <section class="services">
-            <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-            <p class="services-description">Опытный персонал и качественное обслуживание!</p>
+            <h2 class="services-title title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+            <p class="services-description subtitle">Опытный персонал и качественное обслуживание!</p>
           </section>
         </section>
 
-        <section class="advantages">
+         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="services-list">
-
-            <li class="services-item-1">
-                <b class="advantages-title-living">Жилье</b>
+            <li class="services-item">
+              <div class="advantages-item-title">
+                <b class="advantages-title-living">Жилье</b></div>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
-            <li class="services-item-2">
-                <b class="advantages-title-food">Еда</b>
+            <li class="services-item">
+              <div class="advantages-item-title">
+                <b class="advantages-title-food">Еда</b></div>
               <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
-            <li class="services-item-3">
-                <b class="advantages-title-souvenirs">Сувениры</b>
+            <li class="services-item">
+              <div class="advantages-item-title">
+                <b class="advantages-title-souvenirs">Сувениры</b></div>
               <p>Не только китайского, но и настоящего местного производства!</p>
             </li>
-          </ul>
-        </section>
+           </ul>
+         </section>
 
       <!-- Конец раздела с преимуществами -->
 
       <section class="appointment">
-        <h2 class="appointment-date">Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button type="button" id="search">Поиск гостиницы в Седоне</button>
+        <h2 class="appointment-date title">Заинтересовались?</h2>
+        <p class="subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button class="button-brown" type="button" id="search">Поиск гостиницы в Седоне</button>
       </section>
 
       <!-- Форма поиска конец  -->
 
-      <section class="subscribe">
-        <form action="https://echo.htmlacademy.ru">
+    <section class="subscribe-background subscribe">
+      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form action="https://echo.htmlacademy.ru">
         <div class="subscribe-form">
-          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <input type="email" placeholder="Ваш e-mail" name="email"><button class="button" type="submit">Подписаться</button>
+        <input type="email" placeholder="Ваш e-mail" name="email"><button class="button-blue" type="submit">Подписаться</button>
         </div>
-        </form>
-      </section>
+      </form>
+     </section>
     </main>
 
       <!-- Форма почты конец -->
 
-      <footer>
+      <footer class="page-footer">
         <section class="footer-social">
           <ul class="footer-social-list">
             <li class="footer-social-item-vk">
-              <a class="button" href="#">
+              <a class="footer-social-link" href="#">
                 <span class="visually-hidden">VK</span>
                 </a>
             </li>
             <li class="footer-social-item-tg">
-              <a class="button" href="#">
+              <a class="footer-social-link" href="#">
                 <span class="visually-hidden">Telegram</span>
                 </a>
             </li>
             <li class="footer-social-item-yt">
-              <a class="button" href="#">
+              <a class="footer-social-link" href="#">
                 <span class="visually-hidden">YouTube</span>
               </a>
             </li>
@@ -173,31 +176,28 @@
 
         <section class="contacts">
           <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
-          <a href="#"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="обложка."></a>
         </section>
+        <a href="#"><img src="images/logo-htmlacademy.svg" width="115" height="33" alt="обложка."></a>
       </footer>
-    </div>
+
         <!-- Модальное окно начало -->
 
         <div class="modal-container">
           <div class="modal modal-auth">
             <section class="modal-content">
                       <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-                       <button type="button" class="close"><img src="images/cross.svg" alt="close"></button>
+                       <button type="button" class="close"></button>
                        <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
                         <div class="calendar"></div> <p>Мы не можем отправить вас в прошлое.</p>
                       <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
                         <div class="calendar"></div> <p>На эти даты есть свободные номера. Пока есть.</p>
                         <label for="age">Взрослые:</label>
-                          <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
+                          <input type="number" step="1" min="1" max="99" value="2" id="age" name="age">
                         <label for="age">Дети:</label>
-                         <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
-                    </p>
+                         <input type="number" step="1" min="1" max="99" value="2" id="age" name="age">
                     <p>
-                        <button type="submit">Найти</button>
+                        <button class="search-button" type="submit">Найти</button>
                     </p>
-          </a>
-         </li>
         </section>
        </div>
      </div>
